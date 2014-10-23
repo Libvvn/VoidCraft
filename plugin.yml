@@ -1,0 +1,6 @@
+name: VoidCraft
+version: 1.0
+main: me.XXDidiXX.VoidCraft
+commands:
+    potato:
+        description: This is a command!
