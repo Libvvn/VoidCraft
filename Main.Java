@@ -1,3 +1,10 @@
+package me.XXDidiXX.VoidCraft;
+
+import java.util.logging.Logger;
+
+
+
+
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -13,7 +20,7 @@ public class Main extends JavaPlugin {
 					Player player = (Player) sender;
 					player.getInventory().addItem(new ItemStack(Material.POTATO));
 					player.sendMessage("" + ChatColor.YELLOW + "Here have A...");
-					player.sendMessage("§e§lPotato!");
+					player.sendMessage("" + ChatColor.YELLOW + "Potato!");
 				} else {
 					sender.setUsage("You dont have permission to run this command");
 				}
